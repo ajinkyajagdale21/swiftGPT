@@ -1,0 +1,26 @@
+.navbarContainer{
+    padding: 0;
+}
+.contactBtn{
+    background-color: white;
+    border: none;
+    border-radius: 1rem ;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+}
+.contactBtn:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 1rem ;
+    padding: 0.5rem 1rem;
+}
+.navItems{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding-right: 2rem;
+}
+.navItems:hover{
+    color: #CDCBF7;
+}
