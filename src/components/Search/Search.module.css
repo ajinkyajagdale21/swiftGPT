@@ -6,10 +6,37 @@
 .searchInput{
     border: none;
     padding: 1rem 2rem;
-    border: 1px solid #8D8AAC;
+    border-top: 1px solid #8D8AAC;
+    border-left: 1px solid #8D8AAC;
+    border-bottom: 1px solid #8D8AAC;
     background-color: transparent;
     color: #8D8AAC;
     outline: none;
     width: 80%;
     border-radius: 2rem;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px
+}
+.sendBtn{
+    background-color: transparent;
+    color: white;
+    border-top: 1px solid #8D8AAC;
+    border-right: 1px solid #8D8AAC;
+    border-bottom: 1px solid #8D8AAC;
+    border-radius: 2rem;
+    border-left: none;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    padding:0rem  1rem 0rem 0rem
+}
+.outputContainer{
+    background-color: #C7BFFD;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.outputBox{
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  border-radius: 2rem;
 }
