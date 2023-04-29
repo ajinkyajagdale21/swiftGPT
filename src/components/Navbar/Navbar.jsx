@@ -23,7 +23,7 @@ export const Navbar = () => {
             <div className={`container-fluid ${styles.navbarContainer}`}>
                 <h3 className="m-0">SwiftGPT</h3>
                 <button
-                    className="navbar-toggler"
+                    className={`navbar-toggler ${styles.navbarToggler}`}
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
